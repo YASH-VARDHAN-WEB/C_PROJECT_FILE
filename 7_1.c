@@ -1,8 +1,4 @@
-//  Write a C program that uses functions to perform the following operations:
-// a. Reading a complex number.
-// b. Writing a complex number.
-// c. Addition and subtraction of two complex numbers
-// Note: represent complex number using a structure.
+
 #include <stdio.h>
 struct Complex // Structure for Complex Number
 {
@@ -79,17 +75,7 @@ void Sub() // Substract the real and imaginary part Then Display Output
         printf("Substraction = %.2f%.2fi\n", real, imag);
     }
 }
-int main()
-{
-    // printf("Enter Your First Imaginary Number:\n ");
-    // ReadComplex(c1.real, c1.imaginary);
-    // printf("Enter Your First Imaginary Number:\n ");
-    // ReadComplex(c2.real, c2.imaginary);
-
-    // printf("Your First Imaginary Number:\n ");
-    // WriteComplex(c1.real, c1.imaginary);
-    // printf("Your Second Imaginary Number:\n ");
-    // WriteComplex(c2.real, c2.imaginary);
+int main(){
     ReadComplex_1();
     ReadComplex_2();
     WriteComplex_1();
